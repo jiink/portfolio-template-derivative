@@ -25,7 +25,7 @@
         <a href={url} class="nav__item"> {title} </a>    
         {/each}
     </section>
-    <p class="time">{time.toLocaleDateString(undefined, options)}</p>
+    <!-- <p class="time">{time.toLocaleDateString(undefined, options)}</p> -->
 </nav>
 
 <style>
