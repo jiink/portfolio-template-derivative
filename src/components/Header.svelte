@@ -20,6 +20,19 @@
         margin-bottom: 0px;
     }
 
+    header::before {
+        content: "";
+        position: absolute;
+        top: 15px;
+        right: 0;
+        width: 150px;
+        height: 150px;
+        /* padding-top: 20px; */
+        background-image: url('../assets/downArrow.svg');
+        background-repeat: no-repeat;
+        background-size: 90px;
+    }
+
     header {
         position: absolute;
         top: 0px;
@@ -33,4 +46,6 @@
         padding-top: 0px;
         padding-bottom: 0px;
     }
+
+    
 </style>
