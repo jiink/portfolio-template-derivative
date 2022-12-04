@@ -38,7 +38,7 @@
         top: 0px;
         left: 0;
         right: 0;
-        background-image: url('../assets/HalfwayPark.png');
+        background-image: url('../assets/HalfwayPark.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         text-align: left;
