@@ -1,21 +1,28 @@
 <script>
     export let categoryName;
     export let categoryIcon;
+    
 </script>
 
 
-<header style="display: flex; align-items: center;">
-    <img src="{categoryIcon}" alt="icon" width="32" height="32" style="image-rendering: pixelated;"/>
-    <span style="margin-left: 30px;">{categoryName}</span>
+<header style="display: flex; align-items: center; justify-content: space-between;">
+    <img src="{categoryIcon}" alt="icon" width="38" height="38" style="image-rendering: pixelated; margin-right: 30px;"/>
+    <span style="flex-grow: 1;">{categoryName}</span>
+    <img src="src\assets\expandicon.png" alt="icon" width="38" height="38" style="image-rendering: pixelated; margin-right: 86px"/>
 </header>
 
 
 <style>
+    @font-face {
+        font-family: 'Garamond';
+        src: url('../assets/GARABD.TTF') format('truetype');
+    }
 
     span {
-        line-height: 2;
-        font-size: 30px;
-        color: white;
+        font-family: 'Garamond';
+        line-height: 1.4;
+        font-size: 50px;
+        color: rgb(255, 255, 255);
     }
 
     header {
