@@ -8,7 +8,7 @@
 <header style="display: flex; align-items: center; justify-content: space-between;">
     <img src="{categoryIcon}" alt="icon" width="38" height="38" style="image-rendering: pixelated; margin-right: 30px;"/>
     <span style="flex-grow: 1;">{categoryName}</span>
-    <img src="/public/assets/expandicon.png" alt="icon" width="38" height="38" style="image-rendering: pixelated; margin-right: 86px"/>
+    <img src="assets\expandicon.png" alt="icon" width="38" height="38" style="image-rendering: pixelated; margin-right: 86px"/>
 </header>
 
 
