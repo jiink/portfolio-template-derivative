@@ -1,5 +1,6 @@
 <script>
   import Header from "./components/Header.svelte";
+  import ProjectCard from "./components/ProjectCard.svelte";
   import Projects from "./components/Projects.svelte";
 
 </script>
@@ -8,6 +9,7 @@
   <Header/>
   <hr>
   <Projects/>
+  <ProjectCard/>
   <img src="assets\wipsign.gif" alt="Work in progress" width="128" height="128" id="wip-sign"/>
 </main>
 
