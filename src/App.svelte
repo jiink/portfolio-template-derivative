@@ -9,7 +9,7 @@
   <Header/>
   <hr>
   <Projects/>
-  <ProjectCard/>
+  <ProjectCard projectTitle="Project Title" projectDescription="Project description llalalalalal alalalal alalalal alalala"/>
   <img src="assets\wipsign.gif" alt="Work in progress" width="128" height="128" id="wip-sign"/>
 </main>
 
