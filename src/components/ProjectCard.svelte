@@ -8,7 +8,7 @@
         <h2>{projectTitle}</h2>
         <p>{projectDescription}</p>
     </div>
-    <!-- <div class="media"></div> -->
+    <div class="media"></div>
     <svg class="svg-bg" viewBox="0 0 2797 773" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M0 0H2797L1766.32 773H0V0Z" fill="#6953F5"/>
     </svg>
@@ -22,9 +22,9 @@
     /* background-color:#6953F5; */
     position: relative;
 
-    background-image: url("assets/ProjectMedia/commodoreSAM.jpg");
+    /* background-image: url("assets/ProjectMedia/commodoreSAM.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
 }
 
 .svg-bg {
@@ -33,24 +33,6 @@
     /* width: 50%; */
     z-index: 0;
 }
-
-/* .card:after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #000;
-  -webkit-transform-origin: 100% 0;
-  -ms-transform-origin: 100% 0;
-  transform-origin: 100% 0;
-  -webkit-transform: skew(-45deg);
-  -ms-transform: skew(-45deg);
-  transform: skew(-45deg);
-  z-index: -1;
-} */
-
 
 .text {
     position: relative;
@@ -63,10 +45,10 @@
 }
 
 
-/* .media {
-    flex: 1;
-    background-image: url("assets/ProjectMedia/commodoreSAM.jpg");
+.media {
+    flex: 1.8;
+    background-image: url("../assets/ProjectMedia/commodoreSAM.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-} */
+}
 </style>
